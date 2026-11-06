@@ -163,4 +163,4 @@ if submitted:
             to_br(f"{probability:.1%}"),
         )
         st.progress(probability)
-        st.caption("A classe prevista é \"Com falha\" a partir de 50% de probabilidade.")
+        st.caption("A classe prevista é \"Com falha\" quando a probabilidade passa de 50%.")
